@@ -351,10 +351,12 @@
     }
 
     .cursor {
-      display: inline-block;
+      display: inline;
       color: var(--accent-primary);
       animation: cursorBlink 1s step-end infinite;
       font-weight: 200;
+      margin-left: 1px;
+      vertical-align: baseline;
     }
 
     @keyframes cursorBlink {
